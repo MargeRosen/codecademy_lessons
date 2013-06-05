@@ -24,7 +24,7 @@ div {
 	color: #ffffff;
 }
 
-#email{
+#email {
 	float:right;
 	margin-right: 5px;
 	padding-top: 5px;
@@ -46,16 +46,6 @@ td {
 	content: center;
 }
 
- .right p {
-	margin-left: 7px;
-	margin-right: 7px;
-	margin-top: 20px;
-	padding-left: 5px;
-	padding-right: 7px;
-	color: #000000;
-	font-style:italic;
-} 
-
 li {
 	list-style-type: square;
 	padding-right: 7px;
@@ -64,14 +54,17 @@ li {
 a:link {
 	color: #ffffff;
 }
+
 a:visited {
 	text-decoration:none;
 	color: #ffffff;
 }
+
 a:hover {
 	text-decoration:none;
 	font-weight: bold;
 }
+
 a:active {
 	text-decoration:none;
 }
@@ -79,7 +72,7 @@ a:active {
 .left p {
 	margin-top: 450px;
 	padding-left: 7px;
-	}
+}
 
 .left {
 	position: relative;
@@ -102,6 +95,20 @@ a:active {
 	background-color: #FBF3DF; /* Citrine White */
 	margin-bottom: 10px;
 	padding-left: 7px;
+}
+
+.right p {
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 7px;
+	color: #000000;
+	font-style:italic;
+} 
+
+.right a { 
+	color: #61A7ED;
 }
 
 #footer {
