@@ -1,0 +1,145 @@
+/* stylesheet for Marge Rosen's personal website */
+body {
+	background-color: #FBF3DF; /* Citrine White */
+	color: #ffffff;
+}
+
+div {
+	border-radius: 5px;
+	font-family: Verdana, sans-serif;
+}
+
+h2	{
+	margin: 20px;
+}
+
+h4	{
+	margin: 20px;
+}
+
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 95%;
+	height: 85px;
+	margin-top: -20px;
+	margin-left: 20px;
+	background-color: #61A7ED; /*Cornflower blue */
+}
+
+#name {
+	position: relative;
+	float:left;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding-left: 5px;
+	margin-bottom: 15px;
+	font-size: 26px;
+	display: inline-block;
+}
+
+#title {
+	position: relative;
+	float: left;
+	margin-top: 35px;
+	font-size: 18px;
+	display: inline-block; 
+}
+
+#pic {
+	position:relative;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 85px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-top: 30px;
+	width: 47%;
+	height: 400px;
+	background-color: #61A7ED;
+	display: inline-block;
+}
+
+.left p {
+	position: relative;
+	padding-top: 5px;
+	padding-left: 35px; 
+}
+
+.right {
+	position: relative; 
+	float: right;
+	margin-top: 85px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding-top: 30px;
+	width: 47%;
+	height: 400px;
+	background-color: #61A7ED; /*Cornflower blue */
+	display: inline-block;
+}
+
+.right p {
+	position: relative;
+	padding-top: 5px;
+	padding-left: 35px; 
+}
+
+table {
+	margin-top: 20px;
+	margin-left: 35px;
+	margin-bottom: 25px;
+
+}
+
+td {
+	height:222px;	
+	padding-left: 5px;
+	border: 2px solid white;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	width: 97%;
+	margin-left: 20px;
+	background-color: #61A7ED;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+a:link {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration:none;
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration:none;
+}

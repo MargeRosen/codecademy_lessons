@@ -1,0 +1,128 @@
+/* Stylesheet for Marge's music resume` */
+
+div {
+	border-radius: 7px;
+	font-family: Verdana, sans-serif;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #61A7ED; /*Cornflower blue */
+	margin-bottom: 10px;
+}
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-left: 7px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	color: #ffffff;
+}
+
+#email {
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 7px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	padding-left: 7px;
+}
+p {
+	line-height: .7;
+}
+
+td {
+	content: center;
+}
+
+li {
+	list-style-type: square;
+	padding-right: 7px;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration:none;
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+.left p {
+	margin-top: 450px;
+	padding-left: 7px;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 14%;
+	height: 900px;
+	background-color: #61A7ED;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+	width: 83%;
+	height: 900px;
+	background-color: #FBF3DF; /* Citrine White */
+	margin-bottom: 10px;
+	padding-left: 7px;
+}
+
+.right p {
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 20px;
+	padding-left: 5px;
+	padding-right: 7px;
+	color: #000000;
+	font-style:italic;
+} 
+
+.right a { 
+	color: #61A7ED;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	width: 99%;
+	background-color: #61A7ED;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
