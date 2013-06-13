@@ -71,8 +71,8 @@ while counter <= 50
   print counter
   counter +=1
 end
-
-
+# Convert a string to an integer using the method .to_i
+variable = variable.to_i
 
 
 
