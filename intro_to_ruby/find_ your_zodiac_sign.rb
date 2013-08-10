@@ -88,7 +88,7 @@ elsif month == 12
     zodiac = "Capricorn"
   end
 else             
-  Puts "Month entered is invalid"
+  puts "Month entered is invalid"
 end
 
 puts "You are " + zodiac
