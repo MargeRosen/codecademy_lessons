@@ -8,4 +8,4 @@ Intro to Ruby Series
 A few small, simple mico apps for practice
 My first personal website
 
-** To do:  Split out each mico app into its own repo
+** To do:  Split out each mico app into its own repo and remove old exercies.
